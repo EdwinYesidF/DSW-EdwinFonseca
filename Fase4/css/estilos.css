@@ -1,0 +1,169 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header, section, footer, aside, nav, article, hgroup{
+   
+    display: block;
+}
+body{
+    background-color:  #566573   ;
+}
+
+.titulo{
+    background-image: url("../Img/fondoDig.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   border: 2px solid black;
+   
+
+}
+
+.titulo img{
+    width: 200px;
+    float: right;
+    
+}
+
+.tituloPrincipal{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #0431B4;
+    text-align: center;
+}
+
+.temaPrincipal{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:  #7b241c ;
+    padding: 25px 30px;
+
+}
+.menu-area a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: navy;
+    height: 30px;
+    text-decoration: none;
+    font: bold 16px verdana;
+}
+
+.menu-area a:hover {
+    background: rgb(70, 71, 71);
+    color: #fff;
+}
+
+.menu-area ul {
+    list-style: none;
+    display: flex;  
+}
+
+.menu-area li {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.menu-area li:hover .dropdown-1>li {
+    top: 0;
+    display: block;
+    border: 2px black;
+}
+
+.dropdown-1 li {
+    display: none;
+    position: relative;
+    border: 2px black;
+}
+
+.dropdown-1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 2px black;
+}
+
+.dropdown-1 li:hover {
+    display: block;
+    border: 2px black;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    background-image: url("../Img/FondoAstrac2.PNG");
+    background-size:contain;
+    background-repeat:repeat;
+    background-position: center;
+}
+
+section{
+    flex: 65%;
+
+}
+
+ section hgroup{
+    background:  #d0d3d4  ;
+    border: 2px solid #999;
+    padding: 20px;
+    margin-bottom: 15px;
+    font: tahoma;
+    width: 98%;
+   
+ }
+
+ article{
+    background-image: url("../Img/FondoAstrac2.PNG");
+    background-size:contain;
+    background-repeat:repeat;
+    background-position: center;
+    border: 2px solid #999;
+    padding: 20px;
+    margin-bottom: 15px;
+    text-align: initial;
+   width: 98%;
+   font-family: Georgia, serif;
+   font-size: 15px;
+   color: white;
+ }
+
+ article img{
+     width: 800px;
+
+ }
+
+ aside{
+   
+  
+    padding: 10px;
+    width: 29%;
+    background-image: url("../Img/fondo1.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+ }
+ 
+footer{
+    clear: both;
+    padding: 10px;
+    background-color: dimgrey;
+    text-align: left;
+    font-family: Georgia, serif;
+    font-size: 12px;
+    color: white;
+}
+.autor{
+    font-family: Georgia, serif;
+  font-size: 12px;
+  color: white;
+}
+
+}
